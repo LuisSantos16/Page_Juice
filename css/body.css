@@ -1,0 +1,23 @@
+:root{
+    --primary-color:#34495E;
+    --secondary-color:#1C2833;
+    --background-light:#ffffff;
+    --light-color:#ffffff;
+    --dark-color:#000000;
+    --font-primary:#1C2833;
+    --transition:0.5s;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Mooli', sans-serif;
+}

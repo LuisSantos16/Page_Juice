@@ -3,11 +3,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="./css/body.css">
     <link rel="stylesheet" href="./css/header.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mooli&display=swap" rel="stylesheet">
+
+    <script src="./js/menu.js"></script>
 
     <title>Juice</title>
 </head>
 <body>
     
+    <header>
+        <div class="container-header">
+            <nav class="first_menu">
+                <div class="first_menu-mail">
+                    <i class="bi bi-envelope-at-fill"></i>
+                    <a href="#">email@email.com</a>
+                </div>
+                <div class="first_menu-social">
+                    <ul>
+                        <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+                        <li><a href="#"><i class="bi bi-twitter-x"></i></a></li>
+                        <li><a href="#"><i class="bi bi-whatsapp"></i></a></li>
+                        <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+                    </ul>
+                </div>
+                <div class="first_menu-hour">
+                    <p>Open Hour : 8:00 - 18:00</p>
+                </div>
+            </nav>
+
+            <div class="logo">
+                <span>JUICE</span>
+            </div>
+
+            <div class="lista-bar" onclick="llamar()" id="lista-barid">
+                <i class="listabar bi bi-list"></i>
+            </div>
+
+            <nav class="second_menu" id="listaid">
+                <div class="navbar_menu" >
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Practice</a>
+                    <a href="#">Contact</a>
+                    <a href="#" class="navbar_menu-disable">Get a Quote</a>
+                </div>
+                <div class="navbar_contact">
+                    <a href="#">Get a Quote</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
 </body>
 </html>
