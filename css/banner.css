@@ -52,6 +52,10 @@
 
 @media(max-width:550px){
     
+    .banner_container{
+        height: 60%;
+    }
+
     .banner_content{
         padding: 20px;
 
