@@ -6,6 +6,8 @@
     --dark-color:#000000;
     --font-primary:#1C2833;
     --transition:0.5s;
+    --light-color-transp:#ffffff21;
+    --dark-color-transp:#00000077;
 }
 
 *{

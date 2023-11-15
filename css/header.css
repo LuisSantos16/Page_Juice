@@ -46,8 +46,9 @@
 }
 
 .logo{
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
     padding: 20px;
+    border-bottom: 1px solid var(--light-color-transp);
 
     & span{
         color: var(--light-color);
@@ -91,10 +92,13 @@
     & .navbar_contact{
         display: flex;
         align-items: center;
+        
         & a{
             color: var(--light-color);
             padding: 10px;
             border-radius: 20px;
+            transition: var(--transition);
+            background-color: var(--primary-color);
         }
         & a:hover{
             background-color: var(--background-light);
@@ -127,6 +131,8 @@
     .first_menu{display: none;}
 
     .logo{
+        background-color: inherit;
+        border: none;
         & span{
         font-size: 30px;
         }
