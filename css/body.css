@@ -1,13 +1,15 @@
 :root{
     --primary-color:#34495E;
     --secondary-color:#1C2833;
+    --primary-font:#34495E;
+    --secondary-font:#1C2833;
     --background-light:#ffffff;
     --light-color:#ffffff;
     --dark-color:#000000;
     --font-primary:#1C2833;
     --transition:0.5s;
     --light-color-transp:#ffffff21;
-    --dark-color-transp:#00000077;
+    --dark-color-transp:#1c2833a2;
 }
 
 *{
